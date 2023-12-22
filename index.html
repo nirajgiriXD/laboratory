@@ -12,7 +12,8 @@
     <center style="font-family: Rubik Doodle Shadow;">Google Fonts</center>
     <script>
         // Mock GSI request.
-        const gsi = fetch("https://accounts.google.com/gsi/");
+        const gsi = await fetch("https://accounts.google.com/gsi/client");
+        console.log(gsi);
     </script>
 </body>
 </html>

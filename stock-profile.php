@@ -1,3 +1,5 @@
+<?php
+
 $stock_profiles = array(
 	'ACLBSL'    => array(
 		'sector'    => 'Microfinance',

@@ -16,6 +16,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Show current working directory
+        run: |
+          echo "The current working directory is:"
+          pwd
+
       - name: Run AI inference
         id: inference
         uses: actions/ai-inference@v1
